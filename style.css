@@ -1864,9 +1864,10 @@ body.admin-bar .maxwp-primary-menu-container.maxwp-fixed {
 }
 
 .maxwp-primary-responsive-menu-icon::before {
-    color: #000000;
+    color: rgba(255, 255, 255, 0);
     content: "\f0c9";
-    /* background-image: url(img/Hamburger_icon.svg.png)!important; */
+    background-image: url(img/Hamburger_icon.svg.png);
+    background-size: 24.5px;
     font: normal 24px/1 FontAwesome;
     margin: 0 auto;
 }
