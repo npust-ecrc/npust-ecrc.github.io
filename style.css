@@ -4595,16 +4595,16 @@ input.maxwp-search-submit {
 
 .maxwp-scroll-top {
     background: #000000 left top no-repeat url(img/向上箭頭.png);
-    border: 1px solid black;
+    /* border: 1px solid black; */
     cursor: pointer;
-    display: block;
-    height: 29px;
+    /* display: block; */
+    height: 40px;
     opacity: .4;
     filter: alpha(opacity=40);
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 29px;
+    width: 40px;
     z-index: 200;
 }
 
