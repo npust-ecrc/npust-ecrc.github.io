@@ -21,8 +21,9 @@
     position: relative;
     margin: auto;
     overflow: hidden;
-    height: 300px;
-    width: 75.5%;
+    height: 175px;
+    width: 100%;
+    /* width: 1150px; */
 }
 
 .slideshow img {
@@ -972,18 +973,18 @@ object {
 
 .maxwp-main-wrapper {
     position: relative;
-    width: 68%;
+    width: 83%;
     margin: 0;
     padding: 0;
     float: left;
     word-wrap: break-word;
     overflow: hidden;
     -webkit-box-flex: 0;
-    -webkit-flex: 0 0 68%;
+    -webkit-flex: 0 0 83%;
     -moz-box-flex: 0;
-    -ms-flex: 0 0 68%;
-    flex: 0 0 68%;
-    max-width: 68%;
+    -ms-flex: 0 0 83%;
+    flex: 0 0 83%;
+    max-width: 83%;
     -webkit-box-ordinal-group: 1;
     -webkit-order: 0;
     -moz-box-ordinal-group: 1;
@@ -1004,7 +1005,7 @@ object {
     -moz-box-flex: 0;
     -ms-flex: 0 0 31%;
     flex: 0 0 31%;
-    max-width: 31%;
+    max-width: 16%;
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
     -moz-box-ordinal-group: 2;
@@ -1101,13 +1102,13 @@ object {
 }
 
 .maxwp-layout-s1-c .maxwp-main-wrapper {
-    width: 68%;
+    width: 83%;
     -webkit-box-flex: 0;
-    -webkit-flex: 0 0 68%;
+    -webkit-flex: 0 0 83%;
     -moz-box-flex: 0;
-    -ms-flex: 0 0 68%;
-    flex: 0 0 68%;
-    max-width: 68%;
+    -ms-flex: 0 0 83%;
+    flex: 0 0 83%;
+    max-width: 83%;
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
     -moz-box-ordinal-group: 2;
@@ -1139,13 +1140,13 @@ object {
 }
 
 .maxwp-layout-c-s1 .maxwp-main-wrapper {
-    width: 68%;
+    width: 83%;
     -webkit-box-flex: 0;
-    -webkit-flex: 0 0 68%;
+    -webkit-flex: 0 0 83%;
     -moz-box-flex: 0;
-    -ms-flex: 0 0 68%;
-    flex: 0 0 68%;
-    max-width: 68%;
+    -ms-flex: 0 0 83%;
+    flex: 0 0 83%;
+    max-width: 83%;
     -webkit-box-ordinal-group: 1;
     -webkit-order: 0;
     -moz-box-ordinal-group: 1;
@@ -1933,19 +1934,22 @@ body.admin-bar .maxwp-primary-menu-container.maxwp-fixed {
     .maxwp-nav-primary-menu.maxwp-primary-responsive-menu>.page_item_has_children:before {
         content: "\f107";
         float: right;
+        color: rgba(0, 0, 0, 0);
+        background-image: url(img/向下箭頭.png);
+        background-size: 40px;
         font: normal 20px/1 FontAwesome;
-        width: 50px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
         padding: 15px 20px;
         right: 0;
         text-align: right;
         z-index: 9999;
-        color: #555555;
+        /* color: #555555; */
     }
     .maxwp-nav-primary-menu.maxwp-primary-responsive-menu .maxwp-primary-menu-open.menu-item-has-children:before,
     .maxwp-nav-primary-menu.maxwp-primary-responsive-menu .maxwp-primary-menu-open.page_item_has_children:before {
         content: "\f106";
-        color: #555555;
+        color: #55555500;
     }
     .maxwp-nav-primary-menu.maxwp-primary-responsive-menu>li>.sub-menu,
     .maxwp-nav-primary-menu.maxwp-primary-responsive-menu>li>.children {
@@ -3020,7 +3024,7 @@ textarea:focus {
     -moz-box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset;
     -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset;
     box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset;
-    background: #303436;
+    background: #eeeeee;
     margin: 0 auto;
     font-size: 95%;
     padding: 5px 0;
@@ -3047,7 +3051,7 @@ textarea:focus {
 #maxwp-footer .maxwp-foot-wrap p.maxwp-copyright {
     float: none;
     margin: 0;
-    color: #ECFFF1;
+    color: black;
     text-align: center;
     padding: 8px 0;
     line-height: 1;
