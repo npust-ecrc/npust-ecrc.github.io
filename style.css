@@ -1,5 +1,11 @@
 .boxItem {
     display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.boxItem img {
+    /* width: 100%; */
 }
 
 .blankBlock {
@@ -40,6 +46,16 @@
 
 .maxwp-side-widget h2 span {
     font-size: 20px;
+}
+
+.memberPageArticle {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.memberPageArticle p {
+    text-align: left!important;
+    padding-left: 10px;
 }
 
 
@@ -1714,6 +1730,12 @@ body.admin-bar .maxwp-primary-menu-container.maxwp-fixed {
 }
 
 @media screen and (max-width: 782px) {
+    .boxItem {
+        width: 100%;
+    }
+    .boxItem p {
+        padding-top: 15px;
+    }
     body.admin-bar .maxwp-primary-menu-container.maxwp-fixed {
         top: 46px;
     }
