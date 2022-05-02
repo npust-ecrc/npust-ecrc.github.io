@@ -34,6 +34,14 @@
     display: none;
 }
 
+#menu-links-tw a {
+    font-size: 12px!important;
+}
+
+.maxwp-side-widget h2 span {
+    font-size: 20px;
+}
+
 
 /*
 Theme Name: MaxWP
