@@ -58,6 +58,11 @@
     padding-left: 10px;
 }
 
+.menu-links-tw-container img {
+    padding-top: 15px;
+    width: 130px;
+}
+
 
 /*
 Theme Name: MaxWP
@@ -1857,7 +1862,7 @@ body.admin-bar .maxwp-primary-menu-container.maxwp-fixed {
 }
 
 .maxwp-nav-primary-menu>li>a {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .maxwp-nav-primary-menu a:hover,
