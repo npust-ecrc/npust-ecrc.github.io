@@ -63,6 +63,25 @@
     width: 130px;
 }
 
+#memberT td {
+    border: black 1px solid;
+    vertical-align: middle;
+}
+
+.imgTd {
+    min-width: 100px;
+}
+
+#memberT td:not(.imgTd) {
+    text-align: left!important;
+    height: auto;
+    line-height: normal;
+}
+
+#memberT td:not(.imgTd) p {
+    text-align: left!important;
+}
+
 
 /*
 Theme Name: MaxWP
@@ -1551,7 +1570,8 @@ object {
 }
 
 .maxwp-secondary-nav-menu a {
-    font: normal normal 13px 'Patua One', Arial, Helvetica, sans-serif;
+    /* font: normal normal 13px 'Patua One', Arial, Helvetica, sans-serif; */
+    font-family: 'Microsoft JhengHei';
     line-height: 1;
 }
 
@@ -1857,7 +1877,8 @@ body.admin-bar .maxwp-primary-menu-container.maxwp-fixed {
 }
 
 .maxwp-nav-primary-menu a {
-    font: normal normal 13px 'Patua One', Arial, Helvetica, sans-serif;
+    /* font: normal normal 13px 'Patua One', Arial, Helvetica, sans-serif; */
+    font-family: 'Microsoft JhengHei', Arial;
     line-height: 1;
 }
 
